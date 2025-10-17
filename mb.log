@@ -1,0 +1,15 @@
+{"level":"info","message":"[mb:2525] mountebank v2.9.2 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2025-10-17T11:32:54.831Z"}
+{"level":"info","message":"[mb:2525] GET /images/book.jpg","timestamp":"2025-10-17T11:34:18.121Z"}
+{"level":"info","message":"[mb:2525] GET /images/book.jpg","timestamp":"2025-10-17T11:34:23.654Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2025-10-17T11:57:44.513Z"}
+{"level":"error","message":"[mb:2525] Invalid JSON: --data '{\r\n  \"port\": 4545,\r\n  \"protocol\": \"http\",\r\n  \"stubs\": [{\r\n    \"responses\": [\r\n      { \"is\": { \"statusCode\": 400 }}\r\n    ],\r\n    \"predicates\": [{\r\n      \"and\": [\r\n        {\r\n          \"equals\": {\r\n            \"path\": \"/test\",\r\n            \"method\": \"POST\",\r\n            \"headers\": { \"Content-Type\": \"application/json\" }\r\n          }\r\n        },\r\n        {\r\n          \"not\": {\r\n            \"contains\": { \"body\": \"requiredField\" },\r\n            \"caseSensitive\": true\r\n          }\r\n        }\r\n      ]\r\n    }]\r\n  }]\r\n}'","timestamp":"2025-10-17T11:57:44.514Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2025-10-17T11:58:11.732Z"}
+{"level":"info","message":"[http:4545] Open for business...","timestamp":"2025-10-17T11:58:11.736Z"}
+{"level":"info","message":"[mb:2525] GET /images/book.jpg","timestamp":"2025-10-17T11:58:35.498Z"}
+{"level":"info","message":"[mb:2525] GET /images/book.jpg","timestamp":"2025-10-17T11:58:37.230Z"}
+{"level":"info","message":"[mb:2525] GET /images/book.jpg","timestamp":"2025-10-17T11:58:49.978Z"}
+{"level":"info","message":"[mb:2525] GET /images/book.jpg","timestamp":"2025-10-17T11:58:59.856Z"}
+{"level":"info","message":"[mb:2525] GET /images/book.jpg","timestamp":"2025-10-17T11:59:18.794Z"}
+{"level":"info","message":"[http:4545] ::1:60433 => GET /test","timestamp":"2025-10-17T12:00:24.100Z"}
+{"level":"info","message":"[http:4545] no predicate match, using default response","timestamp":"2025-10-17T12:00:24.103Z"}
+{"level":"info","message":"[mb:2525] GET /images/book.jpg","timestamp":"2025-10-17T12:00:48.283Z"}
