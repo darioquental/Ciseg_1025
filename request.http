@@ -1,4 +1,0 @@
-GET http://localhost:4547
-content-type: application/json
-Authorization: bearer-asdasdasdqdqqwdwqd
-
