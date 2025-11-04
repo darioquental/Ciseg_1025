@@ -19,12 +19,12 @@ while True:
     match opc:
         case "1"| "3" | "5": # if opc==1 or opc==3 or opc==5
             print("Bom Dia")
-        case ["6","9"]: # if opc==6 or opc==7 or opc==8 or opc==9
+        case ["6" , "9"]: # elif opc==6 or opc==7 or opc==8 or opc==9
             print("Boa Tarde")
-        case "10" | "12": # if opc==10 or opc==12
+        case "10" | "12": # elif opc==10 or opc==12
             print("Boa Noite")
-        case "13": # if opc==13
+        case "13": # elif opc==13
             print("Ate a proxima")
             break # para o while True
-        case _: # valores default
+        case _: #else valores default
             print("Opçao errada")
