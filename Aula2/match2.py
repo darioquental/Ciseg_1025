@@ -1,4 +1,4 @@
-66# match é o case em python compara uma variavel para uma igualdade de casos
+# match é o case em python compara uma variavel para uma igualdade de casos
 # só para == / != default
 
 opc=0
