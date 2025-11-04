@@ -1,5 +1,7 @@
 # match é o case em python compara uma variavel para uma igualdade de casos
 # só para == / != default
+# range []
+# or |
 
 opc=0
 
