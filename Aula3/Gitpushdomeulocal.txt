@@ -1,0 +1,17 @@
+# Aula git HUB
+# primeiros passos clone / init  ----> só inicial
+
+
+
+
+# fazer alterações 
+# Add                                             ## exemplo     git add .
+# commit  add local                               ## exemplo     git commit -m "Aula Git"
+# push/sync changes local para online iguais      ## exemplo     git push
+
+
+
+# pull changes do online para o local iguais       ## exemplo     git pull
+# Add                                             ## exemplo     git add .
+# coscm-history-item:c%3A%5CDEV%5CCiseg_1025?%7B%22repositoryId%22%3A%22scm0%22%2C%22historyItemId%22%3A%22bf8e83fe953f6014982fde6805a3d937bf2d6027%22%2C%22historyItemParentId%22%3A%22d85683475a70c23da3011898e8de28d46aa11d3f%22%2C%22historyItemDisplayId%22%3A%22bf8e83f%22%7Dmmit  add local                               ## exemplo     git commit -m "novo file"
+# push/sync changes local para online iguais      ## exemplo     git push
