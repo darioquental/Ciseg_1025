@@ -12,6 +12,6 @@
 
 
 # pull changes do online para o local iguais       ## exemplo     git pull
-# Add                                             ## exemplo     git add .
-# commit  add local                               ## exemplo     git commit -m "novas changes"
-# push/sync changes local para online iguais      ## exemplo     git push
+# Add                                              ## exemplo     git add .
+# commit  add local                                ## exemplo     git commit -m "novas changes"
+# push/sync changes local para online iguais       ## exemplo     git push
