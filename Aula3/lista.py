@@ -15,11 +15,11 @@ print(listanum)
 listanum.insert(0,9) # insere novo elemento na lista e empurra os restantes
 print("Usado o metodo insert na posiçao 0",listanum)
 listanum.pop(1) # remove a posiçao no index escolhido
-print("Usado o metodo pop na posiçao 1",listanum)
+print("Usado o metodo pop para remover a posiçao 1",listanum)
 listanum.append(11) # adiciona valor no fim da lista
 print("Usado o metodo append com valor 11",listanum)
 listanum.remove(9) # apaga o primeiro valor encontrado na lista
-print("Usado o metodo remove com o valor 9",listanum)
+print("Usado o metodo remove para remover o primeiro valor 9",listanum)
 listanum.reverse() # muda a ordem da lista ( ao contrario )
 print(listanum)
 listanum.reverse()
