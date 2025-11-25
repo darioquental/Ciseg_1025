@@ -36,4 +36,3 @@ print(listasplit)
 print(listaString[0])
 lista2split=listaString[0].split(" ")
 print(lista2split)
-
