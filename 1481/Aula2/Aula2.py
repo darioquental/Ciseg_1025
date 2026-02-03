@@ -15,7 +15,7 @@ for i in range(len(nomes)-1):
     tamanho=len(nomes[i])
     while it< tamanho:
         print("pos1=",nomes[i],"pos2=",nomes[i+1])                   #debug
-        print("Letra pos1",nomes[i][it],"Letra pos1",nomes[i+1][it]) #debug
+        print("Letra pos1",nomes[i][it],"Letra pos2",nomes[i+1][it]) #debug
         if len(nomes[i]) > len(nomes[i+1]):
              tamanho=len(nomes[i+1])
         if nomes[i][it] > nomes[i+1][it]:
