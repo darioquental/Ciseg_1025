@@ -12,8 +12,8 @@ print("Valores : ",dicionario.values())
 
 print("get valor da key nome : ",dicionario.get("nome"))
 print("get valor da key idade : ",dicionario.get("idade"))
-#dicionario.update({"nome":"Luis", "idade": 45 })
-#print (dicionario)
+dicionario.update({"nome":"Luis"})
+print (dicionario)
 dicionario.update({"nome":"Luis", "idad": 45, "email":"sadas@m.pt" })
 print (dicionario)
 dicionario["nomeproprio"]=dicionario["nome"]
