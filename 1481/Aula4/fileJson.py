@@ -14,4 +14,8 @@ print(objecto)
 # no final salvar o novo file
 
 with open(filename,'w',encoding='utf-8') as manipfile:
+    # json.dump salva o dicionário no arquivo como texto JSON
+    # indent=4 deixa o JSON formatado
+    # f: é o file handler, o arquivo aberto em modo escrita "w".
+    # ensure_ascii=False permite acentos e caracteres especiais
     json.dump(objecto,manipfile,indent=4,ensure_ascii=False)
